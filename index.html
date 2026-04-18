@@ -141,9 +141,19 @@ footer a {
                     url('assets/images/stock_bb_2.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
-  padding: 120px 0;
+  background-repeat: no-repeat;
+  padding: 80px 0;
   text-align: center;
+  min-height: 400px;
+  max-height: 550px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1400px) {
+  .hero {
+    max-height: 500px;
+  }
 }
 
 .hero h1 {
